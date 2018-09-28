@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HolaMundoComponent } from './hola-mundo/hola-mundo.component';
+import { UiModule } from './ui/ui.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { HolaMundoComponent } from './hola-mundo/hola-mundo.component';
     HolaMundoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
